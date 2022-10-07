@@ -1,0 +1,167 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: #e1e2e2;
+}
+
+header {
+    text-align: center;
+    background-color: #1d2228;
+    padding: 0.5em;
+}
+
+header h1 {
+    margin-top: 0;
+    color: #fb8122;
+}
+
+header nav ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+}
+
+header nav ul li {
+    padding: 6px;
+    border-radius: 7px;
+    background-color: dodgerblue;
+    width: auto;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a[href="/"] {
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+main {
+    display: grid;
+    margin-top: 1em;
+}
+
+.index-paragraph {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: darkgray;
+}
+
+.add-item {
+    margin: 0 auto;
+}
+
+.add-item input {
+    padding: 0.75em;
+}
+
+.add-item button {
+    padding: 0.5em;
+}
+
+ol {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+}
+
+ol li {
+    border-radius: 7px;
+    width: 250px;
+}
+
+ol li .img-container {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 1em;
+    background-color: white;
+    border: 1px #1d2228 solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #fb8122;
+}
+
+ol li img {
+    object-fit: contain;
+    width: 100%;
+    height: 90%;
+    margin-top: 3%;
+}
+
+ol li h2 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 210px;
+    margin: 0;
+    display: inline-block;
+}
+
+ol li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+}
+
+.btn-container {
+    width: fit-content;
+    display: inline-block;
+}
+
+i::before {
+font-size: 14px;
+}
+
+.text-btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container a:nth-of-type(2) i:before {
+    color: red;
+}
+
+.minifig-collection-heading {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    background-color: #fb8122;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    row-gap: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 2em;
+    background-color: #fb8122;
+    width: 10%;
+    border-radius: 7px;
+}
